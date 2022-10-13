@@ -24,4 +24,4 @@ for x in f:
     y = int(x)
     b = is_prime(y)
     print("{:d}={:d}*{:d}".format(y, y//b, b))
-    f.close()
+f.close()
